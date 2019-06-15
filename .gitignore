@@ -1,0 +1,48 @@
+# kdiff3 ignore
+*.orig
+
+# maven ignore
+target/
+
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+tmp.*
+*_tmp
+tmp_*
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+# *.jar
+# *.war
+# *.zip
+# *.tar
+
+# *.tar.gz
+
+# pods ignore
+Pods/
+
+# *.tar.gz
+
+# jrebel
+rebel.xml
+.rebel.xml.bak
