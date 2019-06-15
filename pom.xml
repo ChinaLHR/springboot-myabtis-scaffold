@@ -34,7 +34,7 @@
         <httpclient-version>4.5.1</httpclient-version>
         <org.slf4j.version>1.7.5</org.slf4j.version>
         <springboot.version>2.1.3.RELEASE</springboot.version>
-        <fastjson.version>1.2.22</fastjson.version>
+        <fastjson.version>1.2.31</fastjson.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-lang3.version>3.6</commons-lang3.version>
@@ -49,7 +49,7 @@
         <joda-time.version>2.9.7</joda-time.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
         <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
-        <jackson.version>2.9.1</jackson.version>
+        <jackson.version>2.9.9</jackson.version>
         <aspectjweaver.version>1.8.7</aspectjweaver.version>
         <strman.version>0.2.0</strman.version>
         <mybatis.version>3.4.6</mybatis.version>
