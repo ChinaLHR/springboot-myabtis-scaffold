@@ -7,4 +7,4 @@ SpringBoot MyBatis 脚手架
 - springboot
 - mybatis
 - druid
-- jetcache
+- jetCache
