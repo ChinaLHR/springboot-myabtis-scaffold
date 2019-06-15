@@ -8,3 +8,7 @@ SpringBoot MyBatis 脚手架
 - mybatis
 - druid
 - jetCache
+- jackson
+- hibernate-validator
+- swagger
+- logback

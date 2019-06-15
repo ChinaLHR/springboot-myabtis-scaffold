@@ -33,9 +33,28 @@
         </filter>
     </appender>
 
+    <!--jetCache缓存-->
+    <appender name="JETCACHE_LOGFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/jetcache.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover per hour -->
+            <FileNamePattern>${LOG_HOME}/hour/jetcache.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
+            <maxHistory>96</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5level [%thread] [%logger{50}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+
     <root level="${LOG_LEVEL}">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="HOUR_ROLLING_FILE"/>
     </root>
+
+    <logger name="com.alicp.jetcache" level="INFO">
+        <appender-ref ref="JETCACHE_LOGFILE" />
+    </logger>
 
 </configuration>
