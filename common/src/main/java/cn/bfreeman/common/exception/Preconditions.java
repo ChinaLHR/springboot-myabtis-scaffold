@@ -6,6 +6,9 @@ package cn.bfreeman.common.exception;
  */
 public class Preconditions {
 
+    /**
+     * 致命异常check
+     */
     public static final Precondition fatal = new Precondition(new Precondition.ExceptionBuilder() {
         @Override
         public AbstractBizException newException() {
@@ -23,6 +26,9 @@ public class Preconditions {
         }
     });
 
+    /**
+     * 可忽略业务异常check
+     */
     public static final Precondition ignore = new Precondition(new Precondition.ExceptionBuilder() {
         @Override
         public AbstractBizException newException() {
