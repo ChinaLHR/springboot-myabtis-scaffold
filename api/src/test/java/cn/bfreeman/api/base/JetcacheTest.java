@@ -1,9 +1,8 @@
-package cn.bfreeman.api.dao;
+package cn.bfreeman.api.base;
 
 import cn.bfreeman.api.ApiApplication;
 import cn.bfreeman.core.domain.entity.UserDO;
 import lombok.extern.slf4j.Slf4j;
-import org.joda.time.DateTime;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,11 +1,14 @@
 package cn.bfreeman.common.util;
 
 import com.google.common.base.Splitter;
+import com.google.common.collect.Maps;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author lhr
@@ -41,4 +44,21 @@ public final class RequestUtil {
         return ip;
     }
 
+    /**
+     * 根据 HttpServletRequest 查询 header，并排除 x-access-token
+     * @param request
+     * @return
+     */
+    public static Map<String, Object> queryHeader(HttpServletRequest request) {
+        Map<String, Object> headers = Maps.newHashMap();
+        Enumeration<String> headerNames = request.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String key = headerNames.nextElement();
+
+            // 不打印的参数在此处过滤
+            String value = request.getHeader(key);
+            headers.put(key, value);
+        }
+        return headers;
+    }
 }

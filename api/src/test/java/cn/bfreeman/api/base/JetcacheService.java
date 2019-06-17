@@ -1,6 +1,5 @@
-package cn.bfreeman.api.dao;
+package cn.bfreeman.api.base;
 
-import cn.bfreeman.core.config.cache.JetCacheName;
 import cn.bfreeman.core.domain.entity.UserDO;
 import cn.bfreeman.core.domain.enums.SexType;
 import com.alicp.jetcache.anno.CacheType;

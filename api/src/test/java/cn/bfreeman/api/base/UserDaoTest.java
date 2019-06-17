@@ -1,4 +1,4 @@
-package cn.bfreeman.api.dao;
+package cn.bfreeman.api.base;
 
 import cn.bfreeman.api.ApiApplication;
 import cn.bfreeman.core.dao.UserDao;
