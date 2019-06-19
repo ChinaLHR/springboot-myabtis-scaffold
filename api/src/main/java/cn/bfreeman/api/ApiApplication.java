@@ -8,11 +8,13 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @Author : lhr
  * @Date : 14:43 2019/6/13
  */
+@EnableSwagger2
 @EnableAsync
 @EnableScheduling
 @SpringBootApplication(scanBasePackages = {"cn.bfreeman"})
