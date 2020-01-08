@@ -48,7 +48,7 @@
         <lombok.version>1.16.20</lombok.version>
         <joda-time.version>2.9.7</joda-time.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
-        <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
         <jackson.version>2.9.9</jackson.version>
         <aspectjweaver.version>1.8.7</aspectjweaver.version>
         <strman.version>0.2.0</strman.version>
