@@ -52,7 +52,7 @@
         <jackson.version>2.9.9</jackson.version>
         <aspectjweaver.version>1.8.7</aspectjweaver.version>
         <strman.version>0.2.0</strman.version>
-        <mybatis.version>3.4.6</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <jetcache.version>2.5.12</jetcache.version>
         <name.root>bfreeman</name.root>
         <spring.profiles.active>datasource,log</spring.profiles.active>
