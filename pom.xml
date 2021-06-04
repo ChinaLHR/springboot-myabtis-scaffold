@@ -31,7 +31,7 @@
         <skip-maven-deploy>false</skip-maven-deploy>
 
         <!--version-->
-        <httpclient-version>4.5.1</httpclient-version>
+        <httpclient-version>4.5.13</httpclient-version>
         <org.slf4j.version>1.7.5</org.slf4j.version>
         <springboot.version>2.1.3.RELEASE</springboot.version>
         <fastjson.version>1.2.31</fastjson.version>
